@@ -1,0 +1,32 @@
+{
+  "gemini": {
+    "title": "Gemini",
+    "description": "Gemini is an AI-powered financial platform offering cryptocurrency exchange and custody services. It enables users to trade, store, and manage various cryptocurrencies.",
+    "tags": ["finance", "cryptocurrency", "trading"],
+    "logoUrl": "https://logowik.com/content/uploads/images/google-ai-gemini91216.logowik.com.webp"
+  },
+  "chatgpt": {
+    "title": "ChatGPT",
+    "description": "ChatGPT is an AI language model developed by OpenAI, capable of generating human-like text responses in natural language conversations. It can answer queries and engage in conversation on various topics.",
+    "tags": ["language", "conversation", "AI"],
+    "logoUrl": "https://static.vecteezy.com/system/resources/previews/021/059/825/original/chatgpt-logo-chat-gpt-icon-on-green-background-free-vector.jpg"
+  },
+  "midjourney": {
+    "title": "Midjourney",
+    "description": "Midjourney is an AI-driven platform specializing in image generation. It uses advanced machine learning algorithms to create realistic images based on user inputs or preferences.",
+    "tags": ["image generation", "machine learning", "AI"],
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Midjourney_Emblem.png"
+  },
+  "openai": {
+    "title": "OpenAI",
+    "description": "OpenAI is an artificial intelligence research lab dedicated to advancing AI capabilities in a safe and beneficial manner. It has developed various AI models, including ChatGPT, to address diverse applications.",
+    "tags": ["research", "AI development", "machine learning"],
+    "logoUrl": "https://www.shutterstock.com/image-vector/pakistan-04122023-chatgpt-logo-open-600nw-2288386671.jpg"
+  },
+  "google-ai": {
+    "title": "Google AI",
+    "description": "Google AI encompasses a wide range of research and development efforts by Google in the field of artificial intelligence. It includes projects such as Google Brain, Google Assistant, and TensorFlow.",
+    "tags": ["research", "machine learning", "Google products"],
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZxOmSXt8XL0LUD3s63iWdFMsI0M0SWmXEcQ&s"
+  }
+}
