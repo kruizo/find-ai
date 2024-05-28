@@ -1,5 +1,4 @@
-// Header.jsx or Header.tsx
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 
 interface HeaderProps {
   children: ReactNode;
