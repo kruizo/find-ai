@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import data from "./assets/AI.json";
 import HeroCard from "./components/HeroCard";
 
@@ -26,17 +26,15 @@ function Cards() {
   }, []);
 
   return (
-    <div className="container py-24 lg:py-32">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-10">
-        {items.map((item) => (
-          <HeroCard
-            key={item.id}
-            logoUrl={item.logoUrl}
-            title={item.title}
-            description={item.description}
-          />
-        ))}
-      </div>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-10">
+      {items.map((item) => (
+        <HeroCard
+          key={item.id}
+          logoUrl={item.logoUrl}
+          title={item.title}
+          description={item.description}
+        />
+      ))}
     </div>
   );
 }

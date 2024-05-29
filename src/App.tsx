@@ -1,4 +1,3 @@
-import "./App.css";
 import Header from "./Header";
 import Navbar from "./components/Navbar";
 import MainContent from "./MainContent";
@@ -11,9 +10,9 @@ function App() {
     <>
       <Header>
         <Navbar />
+        <Hero />
       </Header>
       <MainContent>
-        <Hero />
         <Cards />
       </MainContent>
       <Footer />

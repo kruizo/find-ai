@@ -1,4 +1,3 @@
-// MainContent.jsx or MainContent.tsx
 import React, { ReactNode } from "react";
 
 interface MainContentProps {
@@ -6,7 +5,7 @@ interface MainContentProps {
 }
 
 const MainContent: React.FC<MainContentProps> = ({ children }) => {
-  return <main className="main-content">{children}</main>;
+  return <main className="container py-24 lg:py-32">{children}</main>;
 };
 
 export default MainContent;

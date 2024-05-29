@@ -5,7 +5,7 @@ interface HeaderProps {
 }
 
 function Header({ children }: HeaderProps) {
-  return <header className="w-full flex justify-center">{children}</header>;
+  return <header className="margin-auto">{children}</header>;
 }
 
 export default Header;
